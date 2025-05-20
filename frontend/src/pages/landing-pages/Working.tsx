@@ -1,3 +1,4 @@
+import { Avatar } from "@mantine/core"
 
 
 const Working = () => {
@@ -10,6 +11,11 @@ const Working = () => {
        
         <div className="w-[30rem] items-center relative">
             <img src="./landing/landing.png" alt="" />
+            <div className="w-40 flex flex-col items-center p-1 border border-red-berry-600 rounded-lg backdrop:backdrop-blur-sm top-[18%] left-[-1%]  absolute">
+                <Avatar src="default-avatar.png" alt="its me" className="!h-16 !w-16" />
+                <div className="text-red-berry-600 text-center text-sm">Complete your Profile</div>
+                <div className="text-gray-300 text-center text-sm">70% Profile Completed</div>
+            </div>
         </div>
         <div className="flex flex-col gap-4 items-center">
             <div>
@@ -37,7 +43,7 @@ const Working = () => {
             <div>
                  <div className="flex gap-2 items-center justify-around p-4 border border-red-600 rounded-lg w-120">
                     <div className="w-15 h-15 rounded-full bg-red-berry-500 flex items-center justify-center">
-                        <img src="./landing/image.png" alt="" />
+                        <img src="./landing/luck.png" alt="" />
                     </div>
                     <div>
                         <div className="text-red-500 text-xl font-bold">Get Hired</div>
