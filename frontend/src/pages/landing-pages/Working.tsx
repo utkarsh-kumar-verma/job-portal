@@ -11,7 +11,7 @@ const Working = () => {
        
         <div className="w-[30rem] items-center relative">
             <img src="./landing/landing.png" alt="" />
-            <div className="w-40 flex flex-col items-center p-1 border border-red-berry-600 rounded-lg backdrop:backdrop-blur-sm top-[18%] left-[-1%]  absolute">
+            <div className="w-40 flex flex-col items-center p-1 border border-red-berry-600 rounded-lg backdrop:backdrop-blur-sm top-[18%] left-[-5%]  absolute">
                 <Avatar src="default-avatar.png" alt="its me" className="!h-16 !w-16" />
                 <div className="text-red-berry-600 text-center text-sm">Complete your Profile</div>
                 <div className="text-gray-300 text-center text-sm">70% Profile Completed</div>

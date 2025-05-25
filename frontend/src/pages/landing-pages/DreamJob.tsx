@@ -26,7 +26,7 @@ const DreamJob = () => {
       label="Job Type"
       placeholder="Full Time"/>
 
-      <Button color="red" className="mt-6">Search</Button>
+      <Button className="mt-6 !bg-red-berry-600">Search</Button>
         </div>
       </div>
       <div>
@@ -34,7 +34,7 @@ const DreamJob = () => {
             <img src="landing-img.png" alt="" />
         </div>
        {/* Sticker1 */}
-       <div className="w-fit border border-slate-500 rounded-xl p-4 backdrop:backdrop-blur-sm absolute top-[28%] right-[5%]">
+       <div className="w-fit border border-red-berry-600 rounded-xl p-4 backdrop:backdrop-blur-sm absolute top-[28%] right-[5%]">
         <div className="text-center text-slate-200">10K+ got Job</div>
         <Avatar.Group>
              <Avatar src="default-avatar.png" alt="its me"/>
