@@ -4,6 +4,7 @@ import DreamJob from "./landing-pages/DreamJob"
 import Working from "./landing-pages/Working"
 import Testimonials from "./landing-pages/Testimonials"
 import Subscribe from "./landing-pages/Subscribe"
+import Footer from "../footer/Footer"
 
 
 const HomePage = () => {
@@ -16,7 +17,9 @@ const HomePage = () => {
       <Working/>
       <Testimonials />
       <Subscribe />
+      <Footer />
       {/* <ContactUs /> */}
+
       {/* <Footer /> */}
     </div>
   )
